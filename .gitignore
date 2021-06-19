@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.cpp
+!README.md
+# etc...
+
+#folders
+.catalyst
+.cph
+.temp
+
+# ...even if they are in subdirectories
+!*/
